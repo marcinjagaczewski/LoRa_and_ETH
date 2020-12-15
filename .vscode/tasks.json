@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+		{
+			"label": "Make Build",
+			"type": "shell",
+			"command": "make -s -j 8 all",
+			"options": {
+				"cwd": "${workspaceRoot}",
+				"shell": {
+					"executable": "cmd.exe",
+					"args": [
+						"/C"
+					]
+				}
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Make Clean",
+			"type": "shell",
+			"command": "make -s clean",
+			"options": {
+				"cwd": "${workspaceRoot}",
+				"shell": {
+					"executable": "cmd.exe",
+					"args": [
+						"/C"
+					]
+				}
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": []
+		}
+	]
+}

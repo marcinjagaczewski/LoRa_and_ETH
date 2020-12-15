@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "stm32_properties",
+            "compilerPath":"D:/Projekty/Firmware/Tools/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-gcc.exe",
+            "includePath": [
+                "D:/Projekty/Firmware/Tools/gcc-arm-none-eabi-9-2020-q2-update-win32/arm-none-eabi/include",
+                "D:/Projekty/Firmware/Tools/gcc-arm-none-eabi-9-2020-q2-update-win32/arm-none-eabi/include/sys",
+                "D:/Projekty/Firmware/Tools/gcc-arm-none-eabi-9-2020-q2-update-win32/arm-none-eabi/lib",
+                "D:/Projekty/Firmware/LoRaEth",
+                "D:/Projekty/Firmware/LoRaEth/Core/Src",
+                "D:/Projekty/Firmware/LoRaEth/Core/Inc",
+                "D:/Projekty/Firmware/LoRaEth/Drivers/STM32F7xx_HAL_Driver/Inc",
+                "D:/Projekty/Firmware/LoRaEth/Drivers/STM32F7xx_HAL_Driver/Src",
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F746xx"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+            
+        }
+    ],
+    "version": 4
+}
